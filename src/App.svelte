@@ -43,6 +43,7 @@
 
 	async function handleKeyDown(e) {
 		const key = e.keyCode;
+		if(key < 37 || key > 40) return;
 		if(!isValidMove(board, tiles, key)) return;
 		board = move(board, tiles, key);
 		
@@ -81,6 +82,7 @@
 	}
 
 	header {
+		margin-top: 40px;
 		text-align: center;
 	}
 
@@ -99,7 +101,7 @@
 		color: white;
 		margin-top: 15px;
 		margin-right: 70px;
-		padding: 5px;
+		padding: 7px;
 		border-radius: 5%;
 		font-size: 1.1em;
 	}

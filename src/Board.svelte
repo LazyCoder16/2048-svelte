@@ -20,8 +20,8 @@
 
   .board {
     background-color: rgb(187, 173, 160);
-    padding: 10px;
-    border-radius: 15px;
+    padding: 7px;
+    border-radius: 7px;
     margin-top: 20px;
   }
 </style>

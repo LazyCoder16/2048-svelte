@@ -38,8 +38,8 @@
 
 <style>
   .box {
-    height: 90px;
-    width: 90px;
+    height: 85px;
+    width: 85px;
     border-radius: 5px;
     background-color: #cdc1b4;
     padding: 0;
@@ -48,8 +48,8 @@
 
   .tile {
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 85px;
+    width: 85px;
     border-radius: 5px;
     font-size: 2.2em;
     font-weight: bold;
